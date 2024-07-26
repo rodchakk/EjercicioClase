@@ -36,7 +36,7 @@ Console.WriteLine("*******Inicie aqui*******");
 
 //Instancia para SuperHeroe #1
 SuperHeroe superHeroe2 = new SuperHeroe();
-Console.Write("Ingrese el nombre del superheroe: ");
+Console.Write("Ingrese el nombre del Super Heroe #1: ");
 superHeroe2.Nombre = Console.ReadLine();
 Console.Write("Cual es su identidad secreta? ");
 superHeroe2.IdentidadSecreta = Console.ReadLine();
@@ -48,25 +48,15 @@ superHeroe2.PuedeVolar = Console.ReadLine();
 
 //Instancia para SuperPoder#1
 superPoder superPoder2 = new superPoder();
-Console.WriteLine("Ingrese el nombre del super poder: ");
+Console.WriteLine("Ingrese el nombre del Super Heroe: ");
 superPoder2.Snombre = Console.ReadLine();
 Console.WriteLine("Descripcion del poder: ");
 superPoder2.Sdescripcion = Console.ReadLine();
 Console.WriteLine("Nivel de poder");
 superPoder2.Snivel = Console.ReadLine();
 
-Console.WriteLine("");
-
-
-superHeroe2.imprimir();
-superPoder2.imprimir();
-
-
-Console.WriteLine("");
-Console.WriteLine("*******");
-Console.WriteLine("");
-
-
+Console.WriteLine("Super Heroe #1 agregado, toca una tecla para continuar");
+Console.Clear();
 
 
 
@@ -77,7 +67,7 @@ Console.WriteLine("");
 
 //Instancia para SuperHeroe #2
 SuperHeroe superHeroe3 = new SuperHeroe();
-Console.Write("Ingrese el nombre del superheroe: ");
+Console.Write("Ingrese el nombre del Super Heroe #2: ");
 superHeroe3.Nombre = Console.ReadLine();
 Console.Write("Cual es su identidad secreta? ");
 superHeroe3.IdentidadSecreta = Console.ReadLine();
@@ -85,9 +75,6 @@ Console.Write("Ingrese su ciudad ");
 superHeroe3.Ciudad = Console.ReadLine();
 Console.Write("Tiene habilidad para volar? ");
 superHeroe3.PuedeVolar = Console.ReadLine();
-
-
-
 
 
 
@@ -100,8 +87,76 @@ superPoder3.Sdescripcion = Console.ReadLine();
 Console.WriteLine("Nivel de poder");
 superPoder3.Snivel = Console.ReadLine();
 
+Console.WriteLine("Super Heroe #2 agregado, toca una tecla para continuar");
+Console.Clear();
+
+
+
+
+
+//Instancia para SuperHeroe #3
+SuperHeroe superHeroe4 = new SuperHeroe();
+Console.Write("Ingrese el nombre del Super Heroe #3: ");
+superHeroe4.Nombre = Console.ReadLine();
+Console.Write("Cual es su identidad secreta? ");
+superHeroe4.IdentidadSecreta = Console.ReadLine();
+Console.Write("Ingrese su ciudad: ");
+superHeroe4.Ciudad = Console.ReadLine();
+Console.Write("Tiene habilidad para volar? ");
+superHeroe4.PuedeVolar = Console.ReadLine();
+
+
+
+
+
+
+
+
+//Instancia para SuperPoder#3
+superPoder superPoder4 = new superPoder();
+Console.WriteLine("Ingrese el nombre del super poder: ");
+superPoder4.Snombre = Console.ReadLine();
+Console.WriteLine("Descripcion del poder: ");
+superPoder4.Sdescripcion = Console.ReadLine();
+Console.WriteLine("Nivel de poder");
+superPoder4.Snivel = Console.ReadLine();
+
+Console.WriteLine("Super Heroe #3 agregado, toca una tecla para continuar");
+Console.Clear();
+
+
+
+
+
+
+
+
+
+//iMPRESION DE DATOS
+
+
+Console.WriteLine("Super Heroe #1");
+superHeroe2.imprimir();
+superPoder2.imprimir();
+Console.WriteLine("");
+Console.WriteLine("*******");
+Console.WriteLine("");
+
+Console.WriteLine("Super Heroe #2");
+superHeroe3.imprimir();
+superPoder3.imprimir();
+Console.WriteLine("");
+Console.WriteLine("*******");
+Console.WriteLine("");
+
+Console.WriteLine("Super Heroe #3");
+superHeroe4.imprimir();
+superPoder4.imprimir();
+Console.WriteLine("");
+Console.WriteLine("*******");
 Console.WriteLine("");
 
 
-superHeroe3.imprimir();
-superPoder3.imprimir();
+Console.WriteLine("");
+Console.WriteLine("");
+Console.WriteLine("Sistema terminado");
