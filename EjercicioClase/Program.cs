@@ -34,6 +34,7 @@ Console.WriteLine("*******Inicie aqui*******");
 
 
 
+
 //Instancia para SuperHeroe #1
 SuperHeroe superHeroe2 = new SuperHeroe();
 Console.Write("Ingrese el nombre del Super Heroe #1: ");
