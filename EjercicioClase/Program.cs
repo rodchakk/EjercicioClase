@@ -2,20 +2,29 @@
 using EjercicioClase;
 
 Console.WriteLine("********Superheroes********");
+Console.WriteLine("");
 
 
 
 
+
+//Instancia para SuperHeroe
 SuperHeroe superHeroe1 = new SuperHeroe();
 superHeroe1.Nombre = "Batman";
-superHeroe1.identidadSecreta = "identidadSecreta";
-superHeroe1.ciudad = "ciudad";
-superHeroe1.puedeVolar = "puedeVolar";
-superHeroe1.superPoder = "superPoder";
+superHeroe1.IdentidadSecreta = "Bruce Wayne";
+superHeroe1.Ciudad = "Gotham";
+superHeroe1.PuedeVolar = "puedeVolar";
 
 
-Console.WriteLine(superHeroe1.Nombre);
-Console.WriteLine(superHeroe1.identidadSecreta);
-Console.WriteLine(superHeroe1.ciudad);
-Console.WriteLine(superHeroe1.puedeVolar);
-Console.WriteLine(superHeroe1.superPoder);
+//Instancia para SuperPoder 
+superPoder superPoder1 = new superPoder();
+superPoder1.Snombre = "Inteligencia Superior";
+superPoder1.Sdescripcion = "Habilidad en el Combate Cuerpo a Cuerpo";
+superPoder1.Snivel = "6";
+
+
+superHeroe1.imprimir();
+superPoder1.imprimir();
+
+
+
